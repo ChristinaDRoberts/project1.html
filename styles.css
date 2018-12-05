@@ -1,0 +1,33 @@
+body{
+  background-color: white
+
+}
+
+.a {
+  color:magenta;
+  font-size: 25px;
+}
+
+.b{
+  color:blue;
+  font-size: 40px;
+}
+.c{
+  color:red;
+  font-size: 40px;
+}
+
+.d{
+  color:aqua;
+  font-size: 40px;
+}
+
+footer{
+  color:green
+  font-size: 40px;
+  margin: 30px
+}
+
+*{
+  border: 1px solid red
+}
