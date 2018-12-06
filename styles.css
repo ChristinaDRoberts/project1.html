@@ -1,19 +1,17 @@
-.a {
+.navbar{
   color:magenta;
   font-size: 15px;
+  margin-left: 100px;
 }
 
 h1{
   color:blue;
   font-size: 30px;
   width: 200px;
+  height: 75px;
   display: inline-block;
   margin-bottom: 0px;
-}
-
-h3{
-  color:blue;
-  font-size: 15px;
+  margin-left: 50px
 }
 
 h2{
@@ -27,10 +25,6 @@ h2{
   font-size: 25px;
 }
 
-.c{
-  color:red;
-  font-size: 40px;
-}
 
 .d{
   color:aqua;
@@ -38,20 +32,43 @@ h2{
 }
 
 p{
-  color:pink;
-  font-size:15;
+  color: black;
+  font-size:20;
   display: inline-block;
 }
 footer{
-  color:green;
-  font-size: 40px;
-  margin: 30px
+
+  font-size: 15px;
+  margin: 5px;
 }
 
 *{
-  border: 1px solid red
+  border: 1px solid red;
 }
-.shoe1{
-  margin-right: 10px
 
+.shoe1{
+  margin-right: 10px;
+}
+
+.recommend{
+  color:green;
+  margin-left: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 300px;
+}
+
+.imgrec{
+  margin-left: 50px;
+  margin-right: 50px;
+  counter-increment: 50px;
+}
+
+.h3{
+
+}
+
+.h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
