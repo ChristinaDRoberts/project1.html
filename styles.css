@@ -5,8 +5,13 @@
 
 }
 
-.quick{
+.head-container{
   background-color: magenta;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+.quick{
   margin-left: 25px;
   margin-right: 25px;
   text-align: center;
@@ -41,6 +46,8 @@ p{
 }
  .imgrec{
    background-color: magenta;
+   margin-left: 7%;
+   margin-right: 7%;
  }
 
 footer{
@@ -55,6 +62,7 @@ footer{
 .shoe1{
   margin-left: 5%;
   display: inline-block;
+
 
 }
 
@@ -98,4 +106,5 @@ footer li,
 }
 .head-interior{
   display: inline-block;
+
 }
