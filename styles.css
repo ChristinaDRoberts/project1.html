@@ -2,6 +2,7 @@
   color:magenta;
   font-size: 15px;
   margin-left: 10px;
+
 }
 
 .quick{
@@ -9,6 +10,8 @@
   margin-left: 25px;
   margin-right: 25px;
   text-align: center;
+  display: inline-block;
+  width: 40%;
 }
 
 h1{
@@ -24,15 +27,15 @@ h1{
 h2{
   color:blue;
   font-size:25;
-  display: inline-block;
+  margin-left: 10%;
 
 }
 
 p{
   color: black;
-  font-size:20;
+  font-size:15;
   display: inline-block;
-  margin-left: 400;
+
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -43,7 +46,6 @@ p{
 footer{
   font-size: 15px;
   margin: 0px;
-
 }
 
 *{
@@ -51,7 +53,9 @@ footer{
 }
 
 .shoe1{
-  float: left
+  margin-left: 5%;
+  display: inline-block;
+
 }
 
 
@@ -67,9 +71,31 @@ footer{
   margin-left: 50px;
   margin-right: 50px;
   counter-increment: 50px;
-}
+  }
 
-.h5{
+h5{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+footer li,
+.navbar li{
+  display: inline-block;
+  margin-right: 5%;
+}
+ h3{
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+
+ .exciting{
+   margin-left: 15%;
+   margin-right: 15%;
+ }
+
+.review{
+  float: right;
+}
+.head-interior{
+  display: inline-block;
 }
