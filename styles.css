@@ -1,7 +1,14 @@
 .navbar{
   color:magenta;
   font-size: 15px;
-  margin-left: 100px;
+  margin-left: 10px;
+}
+
+.quick{
+  background-color: magenta;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
 }
 
 h1{
@@ -18,44 +25,42 @@ h2{
   color:blue;
   font-size:25;
   display: inline-block;
-}
 
-.cc{
-  color:orange;
-  font-size: 25px;
-}
-
-
-.d{
-  color:aqua;
-  font-size: 40px;
 }
 
 p{
   color: black;
   font-size:20;
   display: inline-block;
+  margin-left: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-footer{
+ .imgrec{
+   background-color: magenta;
+ }
 
+footer{
   font-size: 15px;
-  margin: 5px;
+  margin: 0px;
+
 }
 
 *{
-  border: 1px solid red;
+  border: 1px solid pink;
 }
 
 .shoe1{
-  margin-right: 10px;
+  float: left
 }
+
 
 .recommend{
   color:green;
-  margin-left: 250px;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 300px;
+  width: 100%;
+  text-align: center;
 }
 
 .imgrec{
@@ -64,11 +69,7 @@ footer{
   counter-increment: 50px;
 }
 
-.h3{
-
-}
-
 .h5{
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
