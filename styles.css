@@ -55,15 +55,14 @@ footer{
   margin: 0px;
 }
 
-*{
+<!--- *{
   border: 1px solid pink;
 }
+--->
 
 .shoe1{
   margin-left: 5%;
   display: inline-block;
-
-
 }
 
 
@@ -92,6 +91,11 @@ footer li,
   margin-right: 5%;
 }
  h3{
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+
+ h4{
    margin-top: 5px;
    margin-bottom: 5px;
  }

@@ -79,7 +79,7 @@ if (weather === 'hot') {
     console.log('Let\'s read a book!')
   } else {
     console.log('Whatcha wanna do?')
-  }
+}
 
 //
 //                     __           __  __    _                             __
