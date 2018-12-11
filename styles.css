@@ -7,18 +7,18 @@
 
 .head-container{
   background-image: linear-gradient(to right, deeppink , crimson);
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
 .quick{
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 3%;
+  margin-right: 3%;
   text-align: center;
   display: inline-block;
-  width: 40%;
+  width: 30%;
 }
 
 h1{
@@ -49,8 +49,8 @@ p{
 
  .imgrec{
    background-color: magenta;
-   margin-left: 10%;
-   margin-right: 10%;
+   margin-left: 8%;
+   margin-right: 8%;
  }
 
 footer{
@@ -66,6 +66,7 @@ footer{
 .shoe1{
   margin-left: 5%;
   display: inline-block;
+
 }
 
 
@@ -81,9 +82,11 @@ footer{
 }
 
 .imgrec{
-  margin-left: 10%;
-  margin-right: 10%;
-  counter-increment: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  counter-increment: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-image: linear-gradient(to right, deeppink , crimson);
   }
 
@@ -120,6 +123,8 @@ footer li,
 }
 .head-interior{
   display: inline-block;
+  padding-left: 7%;
+  padding-right: 7%;
 
 }
 
