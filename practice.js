@@ -26,3 +26,10 @@ name = "Christina"
 console.log(name);
 console.log(name);
 console.log(name);
+
+var someExcitingCake = {
+  flavor: "chocolate lime",
+  price: 20,
+  console.log('wow this is going to generate an error!');
+  frosting: "vanilla"
+}
