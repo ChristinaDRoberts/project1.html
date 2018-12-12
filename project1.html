@@ -2,83 +2,112 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <script src="ex2.js"></script>
 </head>
+
 <body>
-  <section class="navbar">
-    <ul>
-      <li><img class="logo" src="logo.jpg" width=30 height=15 alt="picture of multiociolored shoe"></li>
-      <li><a href="#">MEN</a></li>
-      <li><a href="#">WOMEN</a></li>
-      <li><a href="#">BOYS</a></li>
-      <li><a href="#">GIRLS</a></li>
-      <li><a href="#">CUSTOMIZE </a></li>
-      <li><a href="#">Help</a></li>
-      <li><a href="#"> My Account</a></li>
-  </section>
+  <header class="navbarContainer">
+    <div class="genderTop">
+      <ul class="topNavBar">
+        <li><img class="logo" src="logo.jpg" width=30 height=15 alt="picture of multiociolored shoe"></li>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">BOYS</a></li>
+        <li><a href="#">GIRLS</a></li>
+        <li><a href="#">CUSTOMIZE </a></li>
+      </ul>
+    </div>
+
+      <div class="helpTop">
+      <ul class="helpMyAccount">
+        <li><a href="#">Help</a></li>
+        <li><a href="#"> My Account</a></li>
+      </ul>
+    </div>
+  </header>
 
   <div class="head-container">
 
 
-    <div class="head-interior">
-      <div><img  class="shoe1" src="shoe1.png" width="200" height="130" alt="black shoe">
+    <section class="head-interior">
+      <img src="shoe1.png" width="200" height="130" alt="black shoe">
+
+       <div class="quick">
+        <h1 class="qSneakers">Quick Sneakers</h1>
+          <p> We provide every type of sneaker you could need !
+          Let us help you find your perfect style today !</p>
+        <h2 class="price"> $120 </h2>
       </div>
+    </section>
+
     </div>
 
 
-      <div class="quick">
-        <h1>Quick Sneakers</h1>
-        <p> We provide every type of sneaker you could need !
-          Let us help you find your perfect style today !</p>
-        <h2> $120 </h2>
-      </div>
-
-  </div>
 
 
-  <section class="exciting">
+
+  <section class="productDetails">
     <a href="#">Product Details</a>
-    <a href="#">Size & Fit</a>
-    <a class="review" href="#">Reviews</a>
-
-    <h3>Exciting Topic</h3>
-    <h5>content here</h5>
-    <h4>Exciting Topic</h4>
-    <h5>content here</h5>
-
-    <h3>Find your shoe size and fit</h3>
-    <h5>content here</h5>
-
-    <h3>What our customers are saying !</h3>
-    <h5>content here</h5>
-
   </section>
 
+  <section class="sizeAndFit">
+    <a href="#">Size & Fit</a>
+  </section >
 
-  <h3 class="recommend">
-    Shop Recommended Shoes
-  </h3>
+  <section class = "reviews">
+    <a href="#">Reviews</a>
+  </section>
+
+  <section class="topics">
+      <h3>Exciting Topic</h3>
+      <h5>content here</h5>
+      <h4>Exciting Topic</h4>
+      <h5>content here</h5>
+
+      <h3 class="find">Find your shoe size and fit</h3>
+      <h5>content here</h5>
+
+      <h3 class="what">What our customers are saying !</h3>
+      <h5>content here</h5>
+
+    </section>
+
+    <section>
+      <h3 class="recommend">
+        Shop Recommended Shoes
+      </h3>
+    </section>
 
   <section class="imgrec">
-    <ul>
+    <ul class="threeShoes">
       <il><img class="shoe2" src="shoe2.png" width="150" height="75" alt="blue and red shoe"></il>
       <il><img class="shoe3" src="shoe3.png" width="150" height="75" alt="red and black shoe"></il>
       <il><img class="shoe4" src="shoe4.png" width="150" height="75" alt="blue and white shoe"></il>
     </ul>
   </section>
-  <script src="main.js"></script>
-  <script src="practice.js"></script>
+<!---<script src="main.js"></script>
+  <script src="practice.js"></script> --->
+
+
 
 </body>
 
-<footer class"botttom-tabs">
-  <ul>
-   <li><img class="logo" src="logo.jpg" width=40 height=25></li>
-   <li><a href="#">Men</a></li>
-   <li><a href="#">Womens</a></li>
-   <li><a href="#">Boys</a></li>
-   <li><a href="#">Girls</a></li>
-   <li><a href="#">Customize</a></li>
-   <li><a href="#">Contact Us</a></li>
- </ul>
+<footer>
+  <div class="bottomNavBar">
+    <ul class="genderBottom">
+      <li><img class="logo" src="logo.jpg" width=40 height=25></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Womens</a></li>
+      <li><a href="#">Boys</a></li>
+      <li><a href="#">Girls</a></li>
+      <li><a href="#">Customize</a></li>
+    </ul>
+  </div>
+
+  <div class="bottomContact">
+    <ul class="contactUs">
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
 </footer>

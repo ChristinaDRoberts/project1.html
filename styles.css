@@ -1,110 +1,148 @@
-.navbar{
+a{
+  color: IndianRed;
+  font: 10px, bold;
+}
 
+.navbarContainer{
   font-size: 10px;
-  margin-left: 5px;
-  background-color: white
+  margin-left: 0px;
+  background-color: white;
+  color: IndianRed;
+
+  margin-right: 0%;
+}
+
+.navbarContainer li{
+  display:inline-block;
+}
+
+.topNavBar{
+  width: 100%;
+  padding-left: 0%;
+  margin-right: 10%;
+}
+.genderTop{
+  display: inline-block;
+  width: 40%;
+
+}
+
+.helpMyAccount{
+  display: inline-block;
+  width: 100%
+  padding: 0%;
+}
+
+.helpTop{
+  display: inline-block;
+
+
 }
 
 .head-container{
-  background-image: linear-gradient(to right, deeppink , crimson);
-  margin-left: 15%;
-  margin-right: 15%;
+  background-image: linear-gradient(to right, deeppink , OrangeRed);
+  margin-left: 17%;
+  margin-right: 17%;
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
+}
+
+.head-interior{
+  display: inline-block;
+  padding-left: 7%;
+  padding-right: 7%;
+
 }
 
 .quick{
   margin-left: 3%;
   margin-right: 3%;
-  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
   display: inline-block;
-  width: 30%;
+  width: 45%;
+  margin-top: 1%;
 }
 
-h1{
-  color:white;
+.qSneakers{
+  color: white;
   font-size: 30px;
-  width: 200px;
-  height: 75px;
   display: inline-block;
   margin-bottom: 0px;
-  margin-left: 50px
-}
-
-h2{
-  color:white;
-  font-size:15;
-  margin-left: 10%;
-
+  margin-left: 20%;
 }
 
 p{
   color: white;
   font-size:10;
   display: inline-block;
-
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 10%%;
+  width: 100%;
 }
 
- .imgrec{
-   background-color: magenta;
-   margin-left: 8%;
-   margin-right: 8%;
- }
-
-footer{
-  font-size: 15px;
-  margin: 0px;
+.price{
+  display: inline-block;
+  color: white;
+  font-size: 15px
+  margin-left: 10%;
 }
 
-<!--- *{
+
+
+/*{
   border: 1px solid pink;
-}
---->
+}*/
 
-.shoe1{
+/*.shoe1{
   margin-left: 5%;
+  display: inline-block;
+  width: 10%;
+
+}*/
+
+.productDetails{
+  margin-left: 21%;
+  margin-right: 2%;
+  color: coral;
+  font-size: 10px;
+
   display: inline-block;
 
 }
 
+.sizeAndFit{
+  margin-left: 0%;
 
-.recommend{
-  color: black;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
-  text-align: center;
-  background-image: linear-gradient(to right, lavenderblush , linen);
+  margin-right: 15%;
+  color: coral;
+  font-size: 12px;
+  display: inline-block;
+
 }
 
-.imgrec{
+.reviews{
+  display: inline-block;
+  font-size: 12px;
   margin-left: 15%;
-  margin-right: 15%;
-  counter-increment: 30px;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-image: linear-gradient(to right, deeppink , crimson);
-  }
+}
 
 h5{
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 7px;
+  font-size: 9px;
 }
 
-footer li,
-.navbar li{
-  display: inline-block;
-  margin-right: 3%;
-}
+
  h3{
    margin-top: 5px;
+   padding-top: 3px;
+   padding-bottom: 3px;
    margin-bottom: 5px;
-   font-size: 10px;
+   font-size: 13px;
 }
 
  h4{
@@ -113,25 +151,64 @@ footer li,
    font-size: 10px
  }
 
- .exciting{
-   margin-left: 15%;
-   margin-right: 15%;
+.topics{
+  margin-left:22%;
+  margin-right: 22%;
+}
+ .find{
+   margin-top: 40px;
  }
 
-.review{
-  float: right;
+ .what{
+   margin-top: 40px;
+ }
+.recommend{
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 15%;
+  margin-right: 10%;
+  width: 70%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+
+  text-align: center;
+  background-image: linear-gradient(to right, lavenderblush , linen);
 }
-.head-interior{
+
+.imgrec{
+  margin-left: 15%;
+  margin-right: 15%;
+  /*counter-increment: 30px;*/
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, deeppink , OrangeRed);
+}
+
+.bottomNavBar{
+  width: 48%;
   display: inline-block;
-  padding-left: 7%;
-  padding-right: 7%;
-
+}
+.bottomContact{
+  width: 48%;
+  font-size: 10px;
+  display: inline-block;
+}
+.genderBottom{
+  font-size: 10px;
+  width: 100%;
+  padding-keft: 0%:
 }
 
-ul{
-  margin: 0px;
+.contactUs{
+  width:50%;
+
 }
-<!--footer li{
-  margin-left: 10px;
+header li,
+footer li {
+  display: inline-block;
+  margin-right: 5%;
+
+
 }
---->
