@@ -263,4 +263,9 @@ footer li {
   margin-right: 5%;
   padding-left: 0%;
 
+
+
+
+@media (min-width: 800px) {
+  width: 70%;
 }
