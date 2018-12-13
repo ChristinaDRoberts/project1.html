@@ -5,9 +5,10 @@ a{
 
 .navbarContainer{
   font-size: 10px;
-  margin-left: 0px;
+  margin-left: 17%;
   background-color: white;
   margin-right: 0%;
+
 }
 
 .navbarContainer li{
@@ -27,12 +28,15 @@ a{
 
 .helpMyAccount{
   display: inline-block;
-  width: 100%
-  padding: 0%;
+  margin-right: 10%;
+  padding-left: 0%;
+  width: 100%;
 }
 
 .helpTop{
   display: inline-block;
+  width:25%;
+  padding-left: 25%;
 
 
 }
@@ -41,7 +45,7 @@ a{
   background-image: linear-gradient(to right, deeppink , OrangeRed);
   margin-left: 17%;
   margin-right: 17%;
-  margin-top: 4%;
+  margin-top: 0%;
   margin-bottom: 2%;
 }
 
@@ -56,7 +60,7 @@ a{
 .quick{
   margin-left: 3%;
   margin-right: 3%;
-  padding-top: 3%;
+  padding-top: 0%;
   padding-bottom: 0%;
   display: inline-block;
   width: 45%;
@@ -138,12 +142,6 @@ h2{
   border: 1px solid pink;
 }*/
 
-/*.shoe1{
-  margin-left: 5%;
-  display: inline-block;
-  width: 10%;
-
-}*/
 
 .productDetails{
   margin-left: 21%;
@@ -207,9 +205,9 @@ h5{
   color: black;
   margin-top: 20px;
   margin-bottom: 0px;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-right: 10%;
-  width: 70%;
+  width: 66%;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 15px;
@@ -219,37 +217,50 @@ h5{
 }
 
 .imgrec{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 17%;
+  margin-right: 17%;
   /*counter-increment: 30px;*/
   padding-top: 5%;
   padding-bottom: 5%;
   background-image: linear-gradient(to right, deeppink , OrangeRed);
 }
 
+.shoe2{
+  padding-right: 8%;
+  padding-left: 6%;
+}
+
+.shoe3{
+  padding-right: 6%;
+}
+
+.shoe4{
+  padding-right: 6%;
+}
+
 .bottomNavBar{
-  width: 48%;
+  margin-left: 14%;
   display: inline-block;
+  width: 35%;
 }
 .bottomContact{
-  width: 48%;
+  width: 15%;
   font-size: 10px;
   display: inline-block;
+  padding-left: 20%;
 }
 .genderBottom{
   font-size: 10px;
   width: 100%;
-  padding-keft: 0%:
+  padding-left: 0%:
+  margin-right: 10%;
 }
 
-.contactUs{
-  width:50%;
 
-}
 header li,
 footer li {
   display: inline-block;
   margin-right: 5%;
-
+  padding-left: 0%;
 
 }
