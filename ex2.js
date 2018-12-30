@@ -8,22 +8,25 @@
 // Refactor the function to make it work.
 
 function addNumbers(numberA, numberB) {
-
-  return (numberA + numberB);
-  var twoPlusTwo;
-  twoPlusTwo = addNumbers(2, 2);
-  return twoPlusTwo
+   console.log(numberA + numberB);
+   return numberA + numberB;
 }
 
+var twoPlusTwo = addNumbers(2, 2);
+
+console.log(twoPlusTwo);
 
 
 
 // Number 2: yell()
 // Write a function named yell that returns an uppercase version of a string
 
-function yell(a){
-  return a.toUpperCase();
+function yell(text){
+  var upper = text.toUpperCase();
+  return upper;
 }
+
+console.log(a);
 
 
 
